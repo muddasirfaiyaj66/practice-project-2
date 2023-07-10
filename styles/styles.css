@@ -264,6 +264,7 @@ nav ul li a:hover{
     font-size: 19px;
     font-weight: 550;
     margin-left: 450px;
+    margin-bottom: 80px;
 
 }
 .blog-card-container{
@@ -274,6 +275,9 @@ nav ul li a:hover{
     width:400px;
     border-radius:  10px 10px 0px 10px  ;
 
+}
+.blog-container{
+    margin-bottom: 80px;
 }
 .blog-card{
     width:400px;
@@ -291,4 +295,58 @@ nav ul li a:hover{
     text-align: center;
     padding: 3px;
     font-size: 18px;
+   
+}
+.footer-container{
+    background-image: url('../asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0,1),rgba(0,0,0,.9));
+    background-blend-mode: overlay;
+    height: 90vh;
+    
+    
+    color: white;
+}
+.footer-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-box{
+    align-items: center;
+    margin-top: 200px;
+}
+.icon{
+    display: flex;
+}
+.icon img{
+    width:30px;
+   padding-left: 15px;
+}
+.footer-description{
+    width: 320px;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+.footer-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.footer-onorder-list li{
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.logo{
+    margin-bottom: 20px;
+}
+.hr{
+    margin: 0px 150px;
+    margin-top: 180px;
+    margin-bottom: 25px;
+}
+.copy{
+    text-align: center;
+    font-size: 18px;
+
 }
