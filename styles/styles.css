@@ -10,6 +10,15 @@ nav{
     height: 10vh;
     align-items: center;
 
+
+}
+.nav-logo span{
+    font-size: 30px;
+    color:rgb(221, 255, 0);
+    font-weight: bold;
+    position: absolute;
+    left:168px;
+    top:21px;
 }
 nav ul{
     display: flex;
@@ -87,4 +96,97 @@ nav ul li a:hover{
 .btn-hire-us a{
     color:black;
     
+}
+
+/* service styles start here */
+.service-main-container{
+    background-image: url('../asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0,1),rgba(0,0,0,.9));
+    background-blend-mode: overlay;
+    display: flex;
+    height: 110vh;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+
+}
+.first-two-box{
+    display: flex;
+    gap:20px;
+    margin-bottom: 20px;
+}
+.service-container-boxes{
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.service-container-box{
+    height: 150px;
+    width: 240px;
+    padding: 50px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgb(122, 1, 234);
+}
+.service-container-box img{
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.service-container{
+    
+    margin-top:150px;
+    margin-left: 60px;
+}
+
+.ser-btn{
+    border: none;
+    padding: 12px 30px ;
+    background-color:white;
+    border-radius:25px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+   
+}
+.ser-btn a{
+    text-decoration: none;
+    color:#5f5f5f;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.author-address{
+    border-right:2px solid orangered;
+    padding-right: 20px;
+}
+
+.ser-con-more-details-img img{
+    width: 60px;
+    border-radius: 30px;
+}
+.service-container-more-details-info{
+    display: flex;
+    gap:30px;
+}
+.service-container-title{
+    font-size: 23px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.service-container-title span{
+    color:red;
+}
+.service-container-description{
+    width: 650px;
+     font-size: 20px;
+     margin-bottom: 20px;
+
+}
+.service-container-order-list{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.more-details-btn a{
+    color:tomato;
+    font-size: 14px;
 }
