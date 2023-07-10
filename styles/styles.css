@@ -197,7 +197,7 @@ nav ul li a:hover{
     background-color: red;
     border-radius: 10px;
     padding: 20px;
-    margin-top: -40px;
+    margin-top: -50px;
     color:white;
 }
 .icon{
@@ -245,4 +245,50 @@ nav ul li a:hover{
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
+}
+.blog-title{
+    text-align: center;
+    margin-top:50px ;
+    font-size: 30px;
+    font-weight: 900;
+    
+    
+}
+.blog-title span{
+    color: orangered;
+}
+.blog-description{
+    text-align: center;
+    margin: 20px;
+    width: 600px;
+    font-size: 19px;
+    font-weight: 550;
+    margin-left: 450px;
+
+}
+.blog-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.blog-card img{
+    width:400px;
+    border-radius:  10px 10px 0px 10px  ;
+
+}
+.blog-card{
+    width:400px;
+    height: 480px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px gray;
+    /* border: 2px solid gray; */
+}
+.blog-card-title{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.blog-card-description{
+    text-align: center;
+    padding: 3px;
+    font-size: 18px;
 }
