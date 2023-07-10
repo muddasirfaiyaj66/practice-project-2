@@ -2,7 +2,7 @@
     margin:0px;
     padding:0px;
 }
-
+/* Navigation section style */
 nav{
     display: flex;
     background-color: #5c5c5c;
@@ -24,4 +24,13 @@ nav ul li a{
 }
 nav ul li a:hover{
     color:rgb(255, 22, 6);
+}
+/* Banner section style */
+.banner-container{
+    height: 100vh;
+    background-image: url('../asset/image/background.jpg'), linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.3));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
 }
