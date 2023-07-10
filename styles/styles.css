@@ -33,4 +33,58 @@ nav ul li a:hover{
     background-position: center;
     background-repeat:no-repeat ;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.banner-content{
+    
+    text-align: center;
+    color:white;
+    position: absolute;
+    left: 50px;
+    width: 1000px;
+}
+.banner-title{
+    font-size: 54px;
+    font-weight: bold;
+    width: 500px;
+    text-align: center;
+    margin-left: 300px;
+    margin-bottom: 20px;
+
+}
+.banner-title span{
+    color:red;
+}
+.banner-description{
+    width: 600px;
+    margin-left: 220px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.banner-btn{
+    border: none;
+    padding: 15px 25px ;
+    background-color: orangered;
+    border-radius:5px;
+    margin-right: 20px;
+   
+    
+}
+.banner-btn a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-hire-us{
+    background-color: white;
+    
+}
+.btn-hire-us a{
+    color:black;
+    
 }
